@@ -1,6 +1,18 @@
 import zipfile
 import os
+if user_data["edges"]:
+            post_code = user_data["edges"][0]["node"]["shortcode"]
+            post_page = "https://www.instagram.com/p/{}".format(post_code)
 
+            web_address_navigator(browser, post_page)
+            username = get_username(browser, "post", logger)
+
+    if user_data["edges"]:
+            post_code = user_data["edges"][0]["node"]["shortcode"]
+            post_page = "https://www.instagram.com/p/{}".format(post_code)
+
+            web_address_navigator(browser, post_page)
+            username = get_username(browser, "post", logger)
 
 def create_proxy_extension(proxy):
     """takes proxy looks like login:password@ip:port"""
