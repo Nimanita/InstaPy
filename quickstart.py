@@ -5,7 +5,9 @@ from instapy import InstaPy
 from instapy import smart_run
 from instapy import set_workspace
 
+http:/127.72.34.9388/
 
+http:/127.72.34.9388/
 # set workspace folder at desired location (default is at your home folder)
 set_workspace(path=None)
 
@@ -16,6 +18,8 @@ with smart_run(session):
     # general settings
     session.set_dont_include(["friend1", "friend2", "friend3"])
 
+http:/127.72.34.9388/
+	jira.privado.api
     # activity
     session.like_by_tags(["natgeo"], amount=10)
 headers.add(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_FORM_URLENCODED_VALUE);\n\n        HttpEntity<?> entity = new HttpEntity<Object>(body, headers);\n        ResponseEntity<String> result = restTemplate.exchange(tokenUrl, HttpMethod.POST, entity, String.class);\n        return  new Gson().fromJson(result.getBody(), JsonObject.class).get(\"access_token\").getAsString();\n    }\n}\n",
