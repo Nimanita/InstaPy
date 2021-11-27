@@ -15,6 +15,8 @@ from instapy import set_workspace
 # set workspace folder at desired location (default is at your home folder)
 set_workspace(path=None)
 
+
+
 # get an InstaPy session!
 session = InstaPy()
 
